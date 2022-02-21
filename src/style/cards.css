@@ -1,0 +1,49 @@
+    .App{
+    background-color: #000000;
+    background-image: linear-gradient(0deg, #000000 0%, #a04d9b 30%, #d23020 66%, #000000 100%);
+    height: 100vh;
+    }
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-card{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    border-radius: 20px;
+    width: 360px;
+}
+.card:hover{
+    transition: 1s;
+    transform: rotate(360deg);
+}
+.card img{
+    background-size: cover;
+    border-top-left-radius:  20px;
+    border-top-right-radius: 20px;
+}
+.card-img-user{
+    position: absolute;
+    top: 135px;
+    right:120px;
+}
+.card-img-user img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.card-info {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.card-info a{
+    margin: 4px;
+}
